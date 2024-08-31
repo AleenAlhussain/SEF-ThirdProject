@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEF Third Project</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Start Header Section -->
+    <header class="header">
+      <div class="container-fluid py-2 d-lg-block d-none head">
+        <div class="row align-items-center">
+          <div class="col-lg-5">
+            <div class="d-flex">
+              <a href="" class="me-4 head-text"
+                ><i class="fa fa-envelope me-2 head-icon" aria-hidden="true"></i
+                >Example@gmail.com</a
+              >
+              <a href="" class="me-2 head-text"
+                ><i
+                  class="fa fa-phone-alt me-2 head-icon"
+                  aria-hidden="true"
+                ></i
+                >+96325874231</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="d-flex align-items-center">
+              <a
+                href=""
+                class="rounded-circle btn btn-sm btn-outline-light me-2"
+                ><i class="fab fa-facebook-f head-icon" aria-hidden="true"></i
+              ></a>
+              <a
+                href=""
+                class="rounded-circle btn btn-sm btn-outline-light me-2"
+                ><i class="fab fa-twitter head-icon" aria-hidden="true"></i
+              ></a>
+              <a
+                href=""
+                class="rounded-circle btn btn-sm btn-outline-light me-2"
+                ><i class="fab fa-linkedin head-icon" aria-hidden="true"></i
+              ></a>
+              <a
+                href=""
+                class="rounded-circle btn btn-sm btn-outline-light me-2"
+                ><i class="fab fa-instagram head-icon" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-4 text-center text-lg-end">
+            <div class="d-inline-flex align-items-center">
+              <a href="#" class="text-muted me-2"> Help</a><small> / </small>
+              <a href="#" class="text-muted me-2"> Support</a><small> / </small>
+              <a href="#" class="text-muted me-2"> Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light px-4 px-lg-5">
+          <a class="navbar-brand" href="#">
+            <h1 class="logo-text m-0">
+              <img
+                src="images/brand-logo.png"
+                class="img-fluid"
+                alt=""
+              />Travisa
+            </h1>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-nav ms-auto py-0">
+              <a class="nav-item nav-link active" aria-current="page" href="#"
+                >Home</a
+              >
+              <a class="nav-item nav-link" href="#">About</a>
+              <a class="nav-item nav-link" href="#">Service</a>
+              <a
+                class="nav-item nav-link"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Training</a
+              >
+              <div class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </div>
+              <a
+                class="nav-item nav-link"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Contact</a
+              >
+            </div>
+            <button class="btn btn-primary rounded-circle me-2" type="submit">
+              <i class="fa fa-search"></i>
+            </button>
+            <a
+              href=""
+              class="btn btn-primary rounded-pill"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              >Login</a
+            >
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="name@example.com"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label"
+                        >Password</label
+                      >
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="exampleFormControlInput1"
+                        placeholder="Your Password"
+                      />
+                    </div>
+                    <div class="form-check form-switch">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        id="flexSwitchCheckDefault"
+                      />
+                      <label
+                        class="form-check-label"
+                        for="flexSwitchCheckDefault"
+                        >Default switch checkbox input</label
+                      >
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="carousel-header">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active indicators"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              class="indicators"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/carousel-2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-md-block">
+                <div class="text-center p-4 mx-auto" style="max-width: 900px">
+                  <h5 class="tit1">Solution For All Type Of Visas</h5>
+
+                  <h1 class="carousel-text text-capitalize text-white tit1">
+                    Immigration Process Starts Here!
+                  </h1>
+                  <p class="text-white mb-4 mb-md-5 carousel-desc">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s,
+                  </p>
+                  <a
+                    class="btn btn-primary border-secondary rounded-pill text-white py-lg-3 py-2 px-2 px-5 carousel-btn"
+                    href="#"
+                    >More Details</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/carousel-1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-md-block">
+                <div class="text-center p-4 mx-auto" style="max-width: 900px">
+                  <h5 class="tit1">Solution For All Type Of Visas</h5>
+
+                  <h1 class="carousel-text text-capitalize text-white">
+                    Best Visa Immigrations Services
+                  </h1>
+                  <p class="text-white mb-4 mb-md-5 carousel-desc">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s,
+                  </p>
+                  <a
+                    class="btn btn-primary border-secondary rounded-pill text-white py-lg-3 py-2 px-2 px-5 carousel-btn"
+                    href="#"
+                    >More Details</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon carousel-icon"
+              aria-hidden="true"
+            ></span>
+            <!-- <span class="visually-hidden">Previous</span> -->
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon carousel-icon"
+              aria-hidden="true"
+            ></span>
+            <!-- <span class="visually-hidden">Next</span> -->
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- End Header Section -->
+    <!-- Start About Section -->
+    <div class="about-section">
+      <div class="container">
+        <div class="row justify-content-center align-items-center mx-auto">
+          <div class="col-lg-5 col-md-6">
+            <div class="about-img">
+              <img
+                src="images/Artboard 22@300x-100.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-6 mt-3">
+            <div class="about-info">
+              <div class="d-flex">
+                <h3>About the company</h3>
+                <div class="line">
+                  <span class="line-1"></span>
+                  <span class="line-2"></span>
+                </div>
+              </div>
+
+              <h2>We’re Trusted Immigration Consultant Agency.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                architecto consectetur iusto perferendis blanditiis assumenda
+                dignissimos, commodi fuga culpa earum explicabo libero sint est
+                mollitia saepe! Sequi asperiores rerum nemo!
+              </p>
+              <div class="row">
+                <div class="col-lg-6 d-flex">
+                  <i class="fa fa-building about-icon"></i>
+                  <span class="span">Best Immigration Resources</span>
+                </div>
+                <div class="col-lg-6 d-flex">
+                  <i class="fa fa-building about-icon"></i>
+                  <span class="span">Best Immigration Resources</span>
+                </div>
+              </div>
+              <div class="row mt-3">
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                  <div class="rounded-bg rounded text-center">
+                    <i class="fa fa-ticket-alt about-icon-2"></i>
+                    <p class="year">34</p>
+                    <p class="year-info">years of Experience</p>
+                  </div>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8">
+                  <div class="list">
+                    <i class="fa fa-check-circle check-icon"></i>
+                    <span class="list-offer"
+                      >Offer 100 % Genuine Assistance</span
+                    >
+                  </div>
+                  <div class="list">
+                    <i class="fa fa-check-circle check-icon"></i>
+                    <span class="list-offer"
+                      >It’s Faster & Reliable Execution</span
+                    >
+                  </div>
+                  <div class="list">
+                    <i class="fa fa-check-circle check-icon"></i>
+                    <span class="list-offer"> Accurate & Expert Advice</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End About Section -->
+    <!-- Start Statistics Section -->
+    <div class="statistics-section">
+      <div class="container py-5">
+        <div class="row text-center">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="counter-box">
+              <div class="counter-box-icon">
+                <i class="fas fa-passport"></i>
+              </div>
+              <div class="counter-box-content">
+                <p>Visa Categories</p>
+                <h4>31+</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="counter-box">
+              <div class="counter-box-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <div class="counter-box-content">
+                <p>Team Member</p>
+                <h4>377+</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="counter-box">
+              <div class="counter-box-icon">
+                <i class="fas fa-user-check"></i>
+              </div>
+              <div class="counter-box-content">
+                <p>Visa Process</p>
+                <h4>4.9K</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="counter-box">
+              <div class="counter-box-icon">
+                <i class="fas fa-handshake"></i>
+              </div>
+              <div class="counter-box-content">
+                <p>Success Rates</p>
+                <h4>98%</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Statistics Section -->
+    <!-- Start Visa Category Section -->
+    <div class="visa-category mt-5">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-12">
+            <div class="d-flex justify-content-center">
+              <div class="line-reverse">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+              </div>
+              <h3 class="title">Visa Categories</h3>
+              <div class="line">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-12">
+            <h2 class="title-2">Enabling Your Immigration Successfully</h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              deleniti amet at atque sequi quibusdam cumque itaque repudiandae
+              temporibus, eius nam mollitia voluptas maxime veniam
+              necessitatibus saepe in ab? Repellat!
+            </p>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="visa-category-box">
+              <img src="images/service-1.jpg" alt="" class="img-fluid" />
+              <div class="visa-category-title"><h4>Student Visa</h4></div>
+              <div class="visa-category-btn mt-5">Explore more</div>
+              <div class="visa-category-info">
+                <h3>Student Visa</h3>
+                <hr />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Mollitia fugit dolores nesciunt adipisci obcaecati veritatis
+                  cum, ratione aspernatur autem velit.
+                </p>
+                <div class="visa-category-info-btn">
+                  <button id="explore">Explore more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="visa-category-box">
+              <img src="images/service-1.jpg" alt="" class="img-fluid" />
+              <div class="visa-category-title"><h4>Residence Visa</h4></div>
+              <div class="visa-category-btn mt-5">Explore more</div>
+              <div class="visa-category-info">
+                <h3>Residence Visa</h3>
+                <hr />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Mollitia fugit dolores nesciunt adipisci obcaecati veritatis
+                  cum, ratione aspernatur autem velit.
+                </p>
+                <div class="visa-category-info-btn">
+                  <button id="explore">Explore more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="visa-category-box">
+              <img src="images/service-3.jpg" alt="" class="img-fluid" />
+              <div class="visa-category-title"><h4>Tourist Visa</h4></div>
+              <div class="visa-category-btn mt-5">Explore more</div>
+              <div class="visa-category-info">
+                <h3>Tourist Visa</h3>
+                <hr />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Mollitia fugit dolores nesciunt adipisci obcaecati veritatis
+                  cum, ratione aspernatur autem velit.
+                </p>
+                <div class="visa-category-info-btn">
+                  <button id="explore">Explore more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="visa-category-box">
+              <img src="images/service-1.jpg" alt="" class="img-fluid" />
+              <div class="visa-category-title"><h4>Job Visa</h4></div>
+              <div class="visa-category-btn mt-5">Explore more</div>
+              <div class="visa-category-info">
+                <h3>Job Visa</h3>
+                <hr />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Mollitia fugit dolores nesciunt adipisci obcaecati veritatis
+                  cum, ratione aspernatur autem velit.
+                </p>
+                <div class="visa-category-info-btn">
+                  <button id="explore">Explore more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="visa-category-box">
+              <img src="images/service-2.jpg" alt="" class="img-fluid" />
+              <div class="visa-category-title"><h4>Diplometic Visa</h4></div>
+              <div class="visa-category-btn mt-5">Explore more</div>
+              <div class="visa-category-info">
+                <h3>Diplometic Visa</h3>
+                <hr />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Mollitia fugit dolores nesciunt adipisci obcaecati veritatis
+                  cum, ratione aspernatur autem velit.
+                </p>
+                <div class="visa-category-info-btn">
+                  <button id="explore">Explore more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <div class="visa-category-box">
+              <img src="images/service-3.jpg" alt="" class="img-fluid" />
+              <div class="visa-category-title"><h4>Business Visa</h4></div>
+              <div class="visa-category-btn mt-5">Explore more</div>
+              <div class="visa-category-info">
+                <h3>Business Visa</h3>
+                <hr />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Mollitia fugit dolores nesciunt adipisci obcaecati veritatis
+                  cum, ratione aspernatur autem velit.
+                </p>
+                <div class="visa-category-info-btn">
+                  <button id="explore">Explore more</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Visa Category Section -->
+    <!-- Start Choose US Section -->
+    <div class="choose-us">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-12">
+            <div class="d-flex justify-content-center">
+              <div class="line-reverse">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+              </div>
+              <h3 class="title">Why Choose Us</h3>
+              <div class="line">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-12">
+            <h2 class="title-2">
+              Offer Tailor Made Services That Our Client Requires
+            </h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              deleniti amet at atque sequi quibusdam cumque itaque repudiandae
+              temporibus, eius nam mollitia voluptas maxime veniam
+              necessitatibus saepe in ab? Repellat!
+            </p>
+          </div>
+        </div>
+        <div class="row text-center mt-4">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="choose-box">
+              <div class="box-icon mx-auto">
+                <i class="fa fa-dollar-sign"></i>
+              </div>
+              <h3>Cost-Effective</h3>
+              <p>
+                Dolor, sit amet consectetur adipisicing elit. Soluta inventore
+                cum accusamus,
+              </p>
+              <a href="">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="choose-box">
+              <div class="box-icon mx-auto"><i class="fa fa-atlas"></i></div>
+              <h3>Faster Processing</h3>
+              <p>
+                Dolor, sit amet consectetur adipisicing elit. Soluta inventore
+                cum accusamus,
+              </p>
+              <a href="">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="choose-box">
+              <div class="box-icon mx-auto"><i class="fab fa-cc-visa"></i></div>
+              <h3>Visa Assistance</h3>
+              <p>
+                Dolor, sit amet consectetur adipisicing elit. Soluta inventore
+                cum accusamus,
+              </p>
+              <a href="">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="choose-box">
+              <div class="box-icon mx-auto">
+                <i class="fa fa-users"></i>
+              </div>
+              <h3>Direct Interviews</h3>
+              <p>
+                Dolor, sit amet consectetur adipisicing elit. Soluta inventore
+                cum accusamus,
+              </p>
+              <a href="">Read More <i class="fa fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Choose US Section -->
+    <!-- Start Country Section -->
+    <div class="countries mt-5">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-12">
+            <div class="d-flex justify-content-center">
+              <div class="line-reverse">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+              </div>
+              <h3 class="title">COUNTRIES WE OFFER</h3>
+              <div class="line">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-12">
+            <h2 class="title-2">
+              Immigration & visa services following Countries
+            </h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              deleniti amet at atque sequi quibusdam cumque itaque repudiandae
+              temporibus, eius nam mollitia voluptas maxime veniam
+              necessitatibus saepe in ab? Repellat!
+            </p>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-3 col-md-6 col-sm-6 mt-3">
+            <div class="country-box">
+              <img src="images/country-1.jpg" alt="" class="img-fluid" />
+              <div class="country-img">
+                <img src="images/brazil.jpg" alt="" class="img-fluid" />
+              </div>
+              <h3 class="country-title">Barazil</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mt-3">
+            <div class="country-box text-center">
+              <img src="images/country-2.jpg" alt="" class="img-fluid" />
+              <div class="country-img">
+                <img src="images/india.jpg" alt="" />
+              </div>
+              <h3 class="country-title">India</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mt-3">
+            <div class="country-box">
+              <img src="images/country-3.jpg" alt="" class="img-fluid" />
+              <div class="country-img">
+                <img src="images/usa.jpg" alt="" />
+              </div>
+              <h3 class="country-title">New York</h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 mt-3">
+            <div class="country-box">
+              <img src="images/country-4.jpg" alt="" class="img-fluid" />
+              <div class="country-img">
+                <img src="images/italy.jpg" alt="" />
+              </div>
+              <h3 class="country-title">Italy</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Country Section -->
+    <!-- Our Training Section Start-->
+    <div class="our-training">
+      <div class="container">
+        <div class="row text-center justify-content-center">
+          <div class="col-12">
+            <div class="d-flex justify-content-center">
+              <div class="line-reverse">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+              </div>
+              <h3 class="title">CHECK OUR TRAINING</h3>
+              <div class="line">
+                <span class="line-1"></span>
+                <span class="line-2"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-12">
+            <h2 class="title-2">
+              Get the Best Coacing Service Training with Our Travisa
+            </h2>
+            <p class="desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              deleniti amet at atque sequi quibusdam cumque itaque repudiandae
+              temporibus, eius nam mollitia voluptas maxime veniam
+              necessitatibus saepe in ab? Repellat!
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="our-training-box">
+              <div class="training-item">
+                <div class="our-training-box-img">
+                  <img src="images/training-1.jpg" alt="" class="img-fluid" />
+                </div>
+                <div class="training-item-content">
+                  <a>IELTS</a>
+                  <a>Coaching</a>
+                </div>
+                <div class="training-box-item">
+                  <h3>IELTS Coaching</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Autem, veritatis
+                  </p>
+                  <a href="">Read More <i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="our-training-box">
+              <div class="training-item">
+                <div class="our-training-box-img">
+                  <img src="images/training-2.jpg" alt="" class="img-fluid" />
+                </div>
+                <div class="training-item-content">
+                  <a>TOEFL</a>
+                  <a>Coaching</a>
+                </div>
+                <div class="training-box-item">
+                  <h3>TOEFL Coaching</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Autem, veritatis
+                  </p>
+                  <a href="">Read More <i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="our-training-box">
+              <div class="training-item">
+                <div class="our-training-box-img">
+                  <img src="images/training-3.jpg" alt="" class="img-fluid" />
+                </div>
+                <div class="training-item-content">
+                  <a>PTE</a>
+                  <a>Coaching</a>
+                </div>
+                <div class="training-box-item">
+                  <h3>PTE Coaching</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Autem, veritatis
+                  </p>
+                  <a href="">Read More <i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="our-training-box">
+              <div class="training-item">
+                <div class="our-training-box-img">
+                  <img src="images/training-4.jpg" alt="" class="img-fluid" />
+                </div>
+                <div class="training-item-content">
+                  <a>OET</a>
+                  <a>Coaching</a>
+                </div>
+                <div class="training-box-item">
+                  <h3>OET Coaching</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Autem, veritatis
+                  </p>
+                  <a href="">Read More <i class="fa fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Our Training Section End-->
+    <!-- FAQ Section Start-->
+    <div class="faq-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="about-info">
+              <div class="d-flex">
+                <h3>FAQ Questions</h3>
+                <div class="line">
+                  <span class="line-1"></span>
+                  <span class="line-2"></span>
+                </div>
+              </div>
+              <h2>We’re Trusted Immigration Consultant Agency.</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                architecto consectetur iusto perferendis blanditiis assumenda
+                dignissimos, commodi fuga culpa earum explicabo libero sint est
+                mollitia saepe! Sequi asperiores rerum nemo!
+              </p>
+              <div class="accordion mt-5" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      Non consectetur a erat nam at lectus urna duis?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna
+                      id volutpat lacus laoreet non curabitur gravida. Venenatis
+                      lectus magna fringilla urna porttitor rhoncus dolor purus
+                      non.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      Feugiat scelerisque varius morbi enim nunc faucibus a
+                      pellentesque?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Dolor sit amet consectetur adipiscing elit pellentesque
+                      habitant morbi. Id interdum velit laoreet id donec
+                      ultrices. Fringilla phasellus faucibus scelerisque
+                      eleifend donec pretium. Est pellentesque elit ullamcorper
+                      dignissim. Mauris ultrices eros in cursus turpis massa
+                      tincidunt dui.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Dolor sit amet consectetur adipiscing elit pellentesque?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Dolor sit amet consectetur adipiscing elit pellentesque
+                      habitant morbi. Id interdum velit laoreet id donec
+                      ultrices. Fringilla phasellus faucibus scelerisque
+                      eleifend donec pretium. Est pellentesque elit ullamcorper
+                      dignissim. Mauris ultrices eros in cursus turpis massa
+                      tincidunt dui.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Dolor sit amet consectetur adipiscing elit pellentesque
+                      habitant morbi. Id interdum velit laoreet id donec
+                      ultrices. Fringilla phasellus faucibus scelerisque
+                      eleifend donec pretium. Est pellentesque elit ullamcorper
+                      dignissim. Mauris ultrices eros in cursus turpis massa
+                      tincidunt dui.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 mt-5 p-5">
+            <div class="faq-img">
+              <img src="images/5353.jpg" class="img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FAQ Section End -->
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item d-flex flex-column">
+              <h4 class="mb-4">Contact Info</h4>
+              <a href=""
+                ><i class="fa fa-map-marker-alt me-2"></i> Syria,Damascus
+              </a>
+              <a href=""
+                ><i class="fas fa-envelope me-2"></i> aleen@gmail.com</a
+              >
+              <a href=""><i class="fas fa-phone me-2"></i> +963 993 773 650</a>
+              <a href="" class="mb-3"
+                ><i class="fas fa-print me-2"></i> +963 993 773</a
+              >
+              <div class="d-flex align-items-center">
+                <i class="fas fa-share fa-2x footer-icon me-2"></i>
+                <a class="btn mx-1" href=""
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a class="btn mx-1" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn mx-1" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn mx-1" href=""
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item d-flex flex-column">
+              <h4 class="mb-4">Opening Time</h4>
+              <div class="mb-3">
+                <h6 class="text-muted mb-0">Mon - Friday:</h6>
+                <p class="text-white mb-0">09.00 am to 07.00 pm</p>
+              </div>
+              <div class="mb-3">
+                <h6 class="text-muted mb-0">Satday:</h6>
+                <p class="text-white mb-0">10.00 am to 05.00 pm</p>
+              </div>
+              <div class="mb-3">
+                <h6 class="text-muted mb-0">Vacation:</h6>
+                <p class="text-white mb-0">All Sunday is our vacation</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item d-flex flex-column">
+              <h4 class="mb-4">Our Services</h4>
+              <a href="#" class=""
+                ><i class="fas fa-angle-right me-2"></i> Business</a
+              >
+              <a href="#" class=""
+                ><i class="fas fa-angle-right me-2"></i> Evaluation</a
+              >
+              <a href="#" class=""
+                ><i class="fas fa-angle-right me-2"></i> Migrate</a
+              >
+              <a href="#" class=""
+                ><i class="fas fa-angle-right me-2"></i> Study</a
+              >
+              <a href="#" class=""
+                ><i class="fas fa-angle-right me-2"></i> Counselling</a
+              >
+              <a href="#" class=""
+                ><i class="fas fa-angle-right me-2"></i> Work / Career</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="footer-item">
+              <h4 class="mb-4">Newsletter</h4>
+              <p class="text-white mb-3">
+                Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem
+                ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <div class="position-relative mx-auto rounded-pill">
+                <input
+                  class="form-control border-0 rounded-pill w-100 py-3 ps-4 pe-5"
+                  type="text"
+                  placeholder="Enter your email"
+                />
+                <button
+                  type="button"
+                  class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2"
+                >
+                  SignUp
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <script src="js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
